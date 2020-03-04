@@ -1,0 +1,9 @@
+#top {
+  background: linear-gradient(120deg, #84fab0, #8fd3f4);
+  height: 100vh;
+}
+
+#bottom {
+  background: blue;
+  height: 50vh;
+}
