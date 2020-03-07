@@ -51,7 +51,7 @@ time, mark, audio, video {
 button {
   cursor: pointer;
   position: relative;
-  height: 54px;
+  height: 44px;
   width: 124px;
   font-size: 16px;
   outline: none;
@@ -63,7 +63,7 @@ button {
 
 .learn-more {
   margin-top: 8px;
-  background: #fe8cbd;;
+  background: #fe8cbd;
   color: white;
   box-shadow: 0px 0px 0px 2px #f54591;
   transform-style: preserve-3d;
@@ -80,19 +80,19 @@ button {
   top: 0;
   left: 0;
   box-shadow: 0px 0px 0px 2px #f54591, 0 8px 8px 0 #2e3147;
-  transform: translate3d(0px, 14px, -1px);
+  transform: translate3d(0px, 11px, -1px);
   transition: transform 180ms cubic-bezier(0,0,.21,.7), box-shadow 180ms cubic-bezier(0,0,.21,.7);
   
 }
 
 .learn-more:hover {
   /* background: #fcc1dc; */
-  transform: translateY(4px);
+  transform: translateY(3px);
   
 }
 
 .learn-more:hover::before {
-  transform: translate3d(0px, 10px, -1px);
+  transform: translate3d(0px, 8px, -1px);
   box-shadow: 0px 0px 0px 2px #f54591, 0 6px 7px 0 #2e3147;
 }
 
